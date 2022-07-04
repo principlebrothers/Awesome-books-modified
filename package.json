@@ -1,0 +1,20 @@
+{
+  "name": "awesome-books-modified",
+  "version": "1.0.0",
+  "description": "Project Name:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/principlebrothers/Awesome-books-modified.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/principlebrothers/Awesome-books-modified/issues"
+  },
+  "homepage": "https://github.com/principlebrothers/Awesome-books-modified#readme"
+}
