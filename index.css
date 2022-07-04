@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 105%;
+}
+
+.invisible {
+  display: none;
+}
+
+.active {
+  color: rgb(58, 119, 250) !important;
+}
