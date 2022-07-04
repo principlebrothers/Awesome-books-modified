@@ -6,7 +6,6 @@ const pageNavigation = () => {
   const addNewBook = document.querySelector('#addBook');
   const contactInfo = document.querySelector('#contactInfo');
 
-
   addNewNav.addEventListener('click', (e) => {
     e.preventDefault();
     addNewNav.classList.add('active');

@@ -73,6 +73,11 @@ const library = () => {
       displayBooks();
     }
   });
-}
+
+  window.onload = () => {
+    getData();
+    displayBooks();
+  };
+};
 
 export default library;
