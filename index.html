@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="text-center mx-3">
+    <header>
+      <nav class="navbar navbar-dark bg-dark text-white fixed-top fs-5">
+        <!-- Navbar content -->
+        <a class="navbar-brand fs-3" href="#">Awesome Books</a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item border border-white border-start-0 border-top-0 border-bottom-0 border-end-4">
+            <a class="nav-link active link-hover text-white fw-bold" aria-current="page" id="list" href="#">List</a>
+          </li>
+          <li class="nav-item border border-white border-start-0 border-top-0 border-bottom-0 border-end-4">
+            <a class="nav-link text-white fw-bold" id="addNew" href="#">Add new</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bold" id="contact" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <br><br><br>
+      <div class="d-flex justify-content-end time-and-date text-dark">June 29, 2020, 1:00pm</div>
+    </header>
+    <main>
+      <section class="book-container">
+        <!--Display book-->
+        <article class="display-Books mx-auto" id="displayBook">
+
+        </article><br>
+
+        <!--Add book-->
+        <article class="add-book invisible" id="addBook">
+          <h1>Add a new book</h1>
+          <form class="w-75 mx-auto">
+            <input class="form-control" type="text" id="title" placeholder="Title" required><br><br>
+            <input class="form-control" type="text" id="author" placeholder="Author" required><br><br>
+            <div class="text-end">
+              <button class="btn btn-secondary text-white" id="addButton" type="submit">Add</button>
+            </div>
+          </form>
+        </article>
+        <br><br>
+
+        <!--Contact Section-->
+        <article class="contact-info invisible" id ="contactInfo">
+          <h1>Contact Information</h1>
+          <div class="contact-details">
+            <p>Do you have any questions or you just wants to say "Hello"?<br>
+              You can reach out to us!
+            </p>
+            <div class="d-flex flex-column p-2 bd-highlight">
+              <a>Our email: <b>seth_sajjad_ernest@gamil.com</b></a>
+              <a>Our phone number: <b>+49 89 89058223</b></a>
+              <a>Our address: <b>950 Darryl Plains</b></a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <br><br><br><br>
+
+    <!--Footer Section-->
+    <footer class="card-footer pb-0  bg-dark text-white fixed-bottom zindex-fixed:1030;">
+      <p id="footer-text"><b>&copy; 2022 Seth, Sajjad and Ernest. <br>All Right Reversed</b></p>
+    </footer>
+  </div>
+
+  <script src="index.js"  type="module" ></script>
+</body>
+
+</html>
