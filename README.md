@@ -1,6 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: Awesome Books
+<div align="center">
+
+  <img src="https://user-images.githubusercontent.com/92553079/214311765-e04dea9f-e42f-45bc-88b9-841ab92c5f81.png" alt="logo" width="600"  height="auto" />
+  <br/>
+
+  <h3><b>AWESOME BOOKS</b></h3>
+
+</div>
 
 > Description the project: With the design of this project the user can add books to the shelve (object array) by clicking the add button and remove the books when the remove button is clicked. ES6 modules was used to made make the code simple to understand and refactor.
 
