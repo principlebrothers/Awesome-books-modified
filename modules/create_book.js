@@ -42,7 +42,7 @@ const library = () => {
     }
     displayBook.innerHTML = '<h1>All Awesome Books</h1>';
     let index = 1;
-    books.forEach((book) => {
+    books?.forEach((book) => {
       displayBook.insertAdjacentHTML(
         'beforeend',
         `<div class='d-flex justify-content-between p-1 ${index % 2 === 0 ? '' : 'bg-secondary text-white'} border border-dark border-2'><div class='d-flex'><h3>${book.title}
