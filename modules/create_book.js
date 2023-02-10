@@ -42,6 +42,7 @@ const library = () => {
     }
     displayBook.innerHTML = '<h1>All Awesome Books</h1>';
     let index = 1;
+      console.log(books)
     books?.forEach((book) => {
       displayBook.insertAdjacentHTML(
         'beforeend',
