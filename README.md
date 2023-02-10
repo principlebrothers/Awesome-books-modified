@@ -20,8 +20,7 @@
 > JavaScript
 
 ## Live Link
-[Live link](https://principlebrothers.github.io/Awesome-books-modified)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8da0e418-4cf3-46c0-9dab-e38f09a0f0e6/deploy-status)](https://app.netlify.com/sites/awesomeshelves/deploys) [Live link](https://awesomeshelves.netlify.app/)
 
 ## Authors
 
